@@ -1,42 +1,51 @@
-# http://www.gnu.org/software/automake
+########################
+# IDE files which should
+# be ignored
+########################
 
-Makefile.in
-/ar-lib
-/mdate-sh
-/py-compile
-/test-driver
-/ylwrap
+# XCode
+*.pbxuser
+*.perspective
+*.perspectivev3
+*.mode1v3
+*.mode2v3
+# XCode 4
+xcuserdata
+*.xcworkspace
 
-# http://www.gnu.org/software/autoconf
+# Code::Blocks
+*.depend
+*.layout
 
-/autom4te.cache
-/autoscan.log
-/autoscan-*.log
-/aclocal.m4
-/compile
-/config.guess
-/config.h.in
-/config.sub
-/configure
-/configure.scan
-/depcomp
-/install-sh
-/missing
-/stamp-h1
+# Visual Studio
+*.sdf
+*.opensdf
+*.suo
+*.pdb
+*.ilk
+*.aps
+ipch/
 
-# https://www.gnu.org/software/libtool/
+# Eclipse
+.metadata
+local.properties
+.externalToolBuilders
 
-/ltmain.sh
+##################
+# other operating systems
+##################
 
-# http://www.gnu.org/software/texinfo
+# Linux
+*~
+# KDE
+.directory
+.AppleDouble
 
-/texinfo.tex
+# Windows
+# Image file caches
+Thumbs.db
+# Folder config file
+Desktop.ini
 
-# http://www.gnu.org/software/m4/
-
-m4/libtool.m4
-m4/ltoptions.m4
-m4/ltsugar.m4
-m4/ltversion.m4
-m4/lt~obsolete.m4
-autom4te.cache
+# Android
+.csettings
